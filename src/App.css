@@ -1,0 +1,112 @@
+/* Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form Section */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.update-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: gray;
+  color: white;
+}
+
+.edit-btn {
+  background-color: orange;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Patient Cards */
+.patient-list {
+  list-style: none;
+  padding: 0;
+}
+
+.patient-card {
+  background: #f9fafc;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid #007bff;
+}
+
+.patient-card p {
+  margin: 4px 0;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 6px;
+}
